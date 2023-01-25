@@ -14,10 +14,8 @@
 
   <!--===========================================  google fonts ===============================================-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Oswald:wght@300;400;500;600;700&display=swap"
-    rel="stylesheet"><!-- End googlefonts -->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"><!-- End googlefonts -->
 
 
   <!--===========================================  vendor ===============================================-->
@@ -39,426 +37,150 @@
 
 <body>
 
-  <!--===========================================  preloader  ===============================================-->
-  <div id="preloader">
-    <div class="wrap">
-      <div class="loading">
-        <div class="bounceball"></div>
-        <div class="text">NOW LOADING . . .</div>
-      </div>
-    </div>
-  </div><!-- End preloader -->
 
 
 
   <!--===========================================  header section ===============================================-->
-  <header id="header-section position-sticky">
+  <header id="header-sec">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-12">
+        <div class="col-12 p-0 px-md-5">
+
+
           <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="#"> <img src="assets/images/logo-1.png" alt="Musicology"
-                class="nav-logo"></a>
+            <a class="navbar-brand" href="#"><img src="assets/images/logo.png" alt="Aero Language" class="nav-logo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
               aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <i class="fa fa-solid fa-bars"></i>
+              <span class="navbar-toggler-icon"></span>
             </button>
+
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ml-auto mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">HOME</a>
-                </li>
+              <ul class="navbar-nav ml-auto mr-5">
+               
+               
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Checking
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li> 
+               
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Training
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li> 
+                
                 <li class="nav-item">
-                  <a class="nav-link" href="#">PRODUCT</a>
+                  <a class="nav-link" href="#">Our Story</a>
                 </li>
+
                 <li class="nav-item">
-                  <a class="nav-link" href="#">PROMO</a>
+                  <a class="nav-link" href="#">Contact Us</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">ABOUT</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">CONTACT</a>
-                </li>
+
+
+
               </ul>
-
-              <form class="form-inline my-2 my-lg-0">
-                <input class="form-control form-control-sm mr-sm-2" type="search" placeholder="Search"
-                  aria-label="Search">
-                <a href="" type="submit"><img src="../assets/images/Search-icon.png" alt=""></a>
-              </form>
-
+            <button class="btn header-btn mr-3">Get in Touch</button>
             </div>
+
+
+<ul class="navbar-nav globe-dropdown" id="">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-globe "></i>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li> 
+          </ul>
+
           </nav>
         </div>
       </div>
     </div>
-  </header><!-- End header section -->
+  </header>
 
-  
+
   <main id="main-section">
 
-    <!--===========================================  banner  ===============================================-->
-    <section id="banner-section">
-      <div class="container-fluid px-md-5" id="banner">
-        <div
-          class="row align-content-end pb-md-5 text-center text-sm-left justify-content-sm-start justify-content-center">
-          <div class="col-lg-5 col-sm-8 mb-md-5">
-            <h1 class=" text-white mb-md-2" data-aos="zoom-out" data-aos-duration="1500">Title Here</h1>
-            <p class="px-sm-0 px-5 text-white mb-md-4" data-aos="fade-up" data-aos-duration="1500">Lorem ipsum dolor sit
-              amet
-              consectetur adipisicing elit. Unde modi porro nulla
-              vel, repellendus dignissimos.</p>
-            <button class="btn btn-primary mb-md-0 mb-4" data-aos="fade-right" data-aos-duration="1500"
-              data-aos-delay="550">REGISTER NOW</button>
-          </div>
-          <div class="col-md-6"></div>
-        </div>
-      </div>
-    </section><!-- End banner -->
+    <!--===========================================  hero  ===============================================-->
+
+<section id="hero" class="p-md-5">
+
+<div class="container-fluid p-md-5">
+  <div class="row row-1">
+    <div class="col-md-7"><h1 class="mb-md-4"><span class="heading-span">Speak </span> & Fly <br> With Aero Language</h1>
+    <p class="mb-md-5">Aviation language might not be officially standardized, still, <br>
+
+      all pilots understand and speak it fluently.</p>
+      <button class="btn hero-btn ">Get in Touch</button>
+      
+    </div>
+    <div class="col-md-5 p-md-5">
+      <img src="assets/images/double quotes.png" alt="" class="mb-4">
+      <p class="quote">Thank you very much for your time, training and professionalism.</p>
+    </div>
+  </div>
+  <div class="row row-2">
+    <div class="col-md-5 align-self-end">
+
+      <div class="d-inline-block"><h2 class>600+</h2><p>Happy Customers</p></div>
+      <div class="d-inline-block"><h2 class="ml-md-3">58+</h2><p class="ml-md-3">Exam Locations</p></div>
+    </div>
+    <div class="col-md-7"><img src="assets/images/hero img.png" alt="" class="img-fluid airplane"></div>
+  </div>
+ 
+</div>
+
+
+</section>
+
+
 
 
     <!--===========================================  card section ===============================================-->
-    <section id="cards" class="pt-md-5 text-center text-white">
-      <div class="py-md-5 py-3">
-        <div class="container-fluid">
-          <div class="row row-1 justify-content-center">
-            <div class="col-12">
-              <h2 class="text-center mb-3 mt-md-0 mt-3" data-aos="zoom-out">DANCE TOUR</h2>
-              <p class="mb-md-0 mb-4" data-aos="zoom-out" data-aos-delay="300">Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Unde <br> modi porro nulla
-                vel, repellendus dignissimos.</p>
-            </div>
-          </div><!-- End cards section header -->
-          <div class="row row-2 p-md-5 ">
-            <div class="col-12 px-5">
-              <div class="swiper mySwiper-1">
-                <div class="swiper-wrapper">
-                  <div class="card mb-md-0 mb-4 swiper-slide" style="width: 22rem;" data-aos="fade-up"
-                    data-aos-offset="200">
-                    <img class="card-img" src="assets/images/card-img-1.png" alt="Card image cap">
-                    <div class="card-body py-4">
-                      <h3 class="card-title">AMERICA</h3>
-                      <p class="card-text">Lorem ipsum doloramet , consectetur elit.</p>
-                    </div>
-                  </div><!-- End swiper-item-1 -->
-                  <div class="card mb-md-0 mb-4 swiper-slide" style="width: 22rem;" data-aos="fade-up"
-                    data-aos-delay="200" data-aos-offset="200">
-                    <img class="card-img" src="assets/images/card-img-2.png" alt="Card image cap">
-                    <div class="card-body py-4">
-                      <h3 class="card-title">ASIA</h3>
-                      <p class="card-text">Lorem ipsum doloramet , consectetur elit.</p>
-                    </div>
-                  </div><!-- End swiper-item-2 -->
-                  <div class="card swiper-slide" style="width: 22rem;" data-aos="fade-up" data-aos-delay="600"
-                    data-aos-offset="200">
-                    <img class="card-img" src="assets/images/card-img-3.png" alt="Card image cap">
-                    <div class="card-body py-4">
-                      <h3 class="card-title">AUSTRALIA</h3>
-                      <p class="card-text">Lorem ipsum doloramet , consectetur elit.</p>
-                    </div>
-                  </div><!-- End swiper-item-3 -->
-                </div>
-                <div class="swiper-button-next text-white"></div>
-                <div class="swiper-button-prev text-white"></div>
-                <div class="swiper-pagination"></div><!-- End swiper pagination&button -->
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- End card section -->
+
 
 
     <!--=====================================  pricing section ============================================-->
-    <section id="pricing" class="pt-md-5 text-center text-white">
-      <div class="py-md-5 py-3">
-        <div class="container-fluid">
-          <div class="row justify-content-center">
-            <div class="col-12">
-              <h2 class="text-center mb-3 mt-md-0 mt-3" data-aos="fade-up">PRICING</h2>
-              <p class="mb-md-0 mb-4" data-aos="fade-up" data-aos-delay="300">Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Unde <br> modi porro nulla
-                vel, repellendus dignissimos.</p>
-            </div>
-          </div><!-- End pricing section header -->
-          <div class="row p-md-5 justify-content-md-end justify-content-center">
-            <div class="col-md-4 col-sm-6 d-flex justify-content-md-end justify-content-center">
-              <div class="card pricing-card mb-md-0 mb-4" style="width: 22rem;" data-aos="fade-up"
-                data-aos-offset="200">
-                <img class="card-img m-auto p" src="assets/images/badge-icon.png" alt="">
-                <div class="card-body">
-                  <h3 class="card-title">BASIC</h3>
-                  <p class="card-text">Lorem ipsum doloramet , consectetur elit.</p>
-                  <div class="py-1 pt-2"><button class="btn btn-secondry mb-md-0 mb-4">$150.00</button></div>
-                </div>
-              </div>
-            </div><!-- End pricing-card-1 -->
-            <div class="col-md-4 col-sm-6  d-flex justify-content-center">
-              <div class="card pricing-card mb-md-0 mb-4" style="width: 22rem;" data-aos="fade-up"
-                data-aos-offset="200">
-                <img class="card-img m-auto p" src="assets/images/badge-icon.png" alt="">
-                <div class="card-body">
-                  <h3 class="card-title">PROFESSIONAL</h3>
-                  <p class="card-text">Lorem ipsum doloramet , consectetur elit.</p>
-                  <div class="py-1 pt-2"><button class="btn btn-secondry mb-md-0 mb-4">$200.00</button></div>
-                </div>
-              </div>
-            </div><!-- End pricing-card-2 -->
-            <div class="col-md-4 col-sm-6  d-flex justify-content-md-start justify-content-center">
-              <div class="card pricing-card mb-md-0 mb-4" style="width: 22rem;" data-aos="fade-up"
-                data-aos-offset="200">
-                <img class="card-img m-auto p" src="assets/images/badge-icon.png" alt="">
-                <div class="card-body">
-                  <h3 class="card-title">ULTIMATE</h3>
-                  <p class="card-text">Lorem ipsum doloramet , consectetur elit.</p>
-                  <div class="py-1 pt-2"><button class="btn btn-secondry mb-md-0 mb-4">$250.00</button></div>
-                </div>
-              </div><!-- End pricing-card-3 -->
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- End pricing section -->
 
 
     <!--=======================================  blog posts ============================================-->
-    <section id="blog-posts">
-      <div class="container-fluid text-white text-md-left text-center">
-        <div class="row row-1 align-items-center">
-          <div class="col-md-6 px-xl-5 order-md-2">
-            <div class="px-xl-3">
-              <h2 class="mb-md-5 my-md-0 my-4" data-aos="fade-down-left">AMAZING DANCE</h2>
-              <p class="mb-md-5" data-aos="fade-down-left">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit. Tempora, sed!</p>
-              <button class="btn btn-readmore mb-md-0 mb-4" data-aos="zoom-out" data-aos-delay="500">READ MORE</button>
-            </div>
-          </div>
-          <div class="col-md-6 p-0 order-md-1"><img src="assets/images/after-pricing-img-1.png" alt=""
-              class="img-fluid">
-          </div>
-        </div>
-        <div class="row row-2 align-items-center">
-          <div class="col-md-6 px-xl-5">
-            <div class="px-xl-3">
-              <h2 class="mb-md-5 my-md-0 my-4" data-aos="fade-up-right">BEST DANCE</h2>
-              <p class="mb-md-5" data-aos="fade-up-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
-                ipsum dolor sit amet,
-                consectetur adipisicing elit. Tempora, sed!</p>
-              <button class="btn btn-readmore mb-md-0 mb-4" data-aos="zoom-out" data-aos-delay="500">READ MORE</button>
-            </div>
-          </div>
-          <div class="col-md-6 p-0"><img src="assets/images/after-pricing-img-2.png" alt="" class="img-fluid">
-          </div>
-        </div>
-      </div>
-    </section><!-- End blog posts -->
+
 
 
     <!--==================================   Stats Counter Section   ======================================-->
-    <section id="stats-counter" class="pt-md-5 text-center text-white">
-      <div class="py-md-5 py-3">
-        <div class="pb-md-4 pb-2">
-          <div class="container-fluid" data-aos="zoom-out">
-            <div class="row row-1 justify-content-center">
-              <div class="col-12">
-                <h2 class="text-center mb-3 mt-md-0 mt-3" data-aos="fade-down">OUR STATISTICS</h2>
-                <p class="mb-md-0 mb-4" data-aos="fade-down">Lorem ipsum dolor sit amet consectetur
-                  adipisicing elit. Unde <br> modi porro nulla
-                  vel, repellendus dignissimos.</p>
-              </div>
-            </div><!-- End stats section header -->
-            <div class="row row-2 justify-content-center my-md-5">
-              <div class="col-lg-4 col-md-6">
-                <div class="stats-item text-center w-100 h-100">
-                  <span data-purecounter-start="0" data-purecounter-end="1240" data-purecounter-duration="1"
-                    class="purecounter d-inline-block"></span> <span class="d-inline-block">&#43;</span>
-                  <p class="h1">Club</p>
-                </div>
-              </div><!-- End Stats Item -->
-              <div class="col-lg-4 col-md-6">
-                <div class="stats-item text-center w-100 h-100">
-                  <span data-purecounter-start="0" data-purecounter-end="2000" data-purecounter-duration="1"
-                    class="purecounter d-inline-block"></span> <span class="d-inline-block">&#43;</span>
-                  <p class="h1">Active Member</p>
-                </div>
-              </div><!-- End Stats Item -->
-              <div class="col-lg-4 col-md-6">
-                <div class="stats-item text-center w-100 h-100">
-                  <span data-purecounter-start="0" data-purecounter-end="1000" data-purecounter-duration="1"
-                    class="purecounter d-inline-block"></span> <span class="d-inline-block">&#43;</span>
-                  <p class="h1">Community</p>
-                </div>
-              </div><!-- End Stats Item -->
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- End stats Counter section -->
-
-
-    <!--====================================== testimonials ============================================-->
-    <section id="testimonials">
-      <div class="container-fluid">
-        <div class="row text-white text-center">
-          <div class="col-12">
-            <div class="swiper mySwiper">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide p-sm-5">
-                  <div class="p-md-5 py-md-0 py-5">
-                    <div class="p-md-5 py-md-0 py-5">
-                      <div class="p-md-5">
-                        <p class="px-lg-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi corrupti quia
-                          dicta nobis cum nemo doloremque temporibus quae non iure, recusandae blanditiis, .</p>
-                        <h4>HERBERT SIMON 1</h4>
-                      </div>
-                    </div>
-                  </div>
-                </div><!-- End testimonial item 1 -->
-                <div class="swiper-slide p-sm-5">
-                  <div class="p-md-5 py-md-0 py-5">
-                    <div class="p-md-5 py-md-0 py-5">
-                      <div class="p-md-5">
-                        <p class="px-lg-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi corrupti quia
-                          dicta nobis cum nemo doloremque temporibus quae non iure, recusandae blanditiis, .</p>
-                        <h4>HERBERT SIMON 2</h4>
-                      </div>
-                    </div>
-                  </div>
-                </div><!-- End testimonial item 2 -->
-                <div class="swiper-slide p-sm-5">
-                  <div class="p-md-5 py-md-0 py-5">
-                    <div class="p-md-5 py-md-0 py-5">
-                      <div class="p-md-5">
-                        <p class="px-lg-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi corrupti quia
-                          dicta nobis cum nemo doloremque temporibus quae non iure, recusandae blanditiis, .</p>
-                        <h4>HERBERT SIMON 3</h4>
-                      </div>
-                    </div>
-                  </div>
-                </div><!-- End testimonial item 3 -->
-              </div>
-              <div class="swiper-button-next text-white d-sm-block d-none"></div>
-              <div class="swiper-button-prev text-white d-sm-block d-none"></div>
-            </div>
-            <div class="swiper-pagination-2"></div><!-- End testimonial item 1 -->
-          </div>
-        </div>
-      </div>
-    </section><!-- End testimonials -->
-
-
-    <!--=======================================  subscription ============================================-->
-    <section id="subscribe" class="text-center text-white">
-      <div class="container-fluid">
-        <div class="row row-1 justify-content-center align-content-center">
-          <div class="col-md-7 col-sm-10">
-            <h2 class="text-center mb-4 mt-3" data-aos="fade-up">SUBSCRIBE</h2>
-            <p class="mb-4" data-aos="fade-up" data-aos-delay="300">Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Unde modi porro nulla
-              vel, repellendus dignissimos.
-            </p><!-- End subscription header -->
-            <div class="px-md-4">
-              <form action="" data-aos="fade-up" data-aos-delay="500" class="mb-4">
-                <div class="input-group">
-                  <input type="text" placeholder="Your Email" class="form-control">
-                  <div class="input-group-append"><button type="submit" class="btn btn-form">SUBSCRIBE</button></div>
-                </div>
-              </form><!-- End form -->
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- End subsciption -->
-
-  </main><!-- End main -->
-
-
-  <!--=======================================  footer section ============================================-->
-  <footer id="footer-section">
-    <div class="container-fluid py-md-5">
-      <div class="row text-white">
-        <div class="col-lg-5 col-md-6 p-5">
-          <h5 class="mb-4">MUSICOLOGY</h5>
-          <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores consequuntur nobis
-            molestiae odit necessitatibus deserunt minus perferendis debitis, veniam quod.
-          </p>
-          <div class="social-box">
-            <a href=""><img src="assets/images/Instagram.png" alt=""></a>
-            <a href="" class="ml-2"><img src="assets/images/Facebook.png" alt=""></a>
-            <a href="" class="ml-2"><img src="assets/images/Twitter.png" alt=""></a>
-            <a href="" class="ml-2"><img src="assets/images/WhatsApp.png" alt=""></a>
-          </div>
-        </div>
-        <div class="col-lg-1 col-md-6 col-6 d-none d-md-block"></div>
-        <div class="col-lg-2 col-md-4 col-sm-6 py-md-5 px-md-0 px-5 mb-md-0 mb-3">
-          <h5 class="mb-4">ABOUT</h5>
-          <ul class="list-unstyled">
-            <a href="">
-              <li>History</li>
-            </a>
-            <a href="">
-              <li>Our Team</li>
-            </a>
-            <a href="">
-              <li>Brand Guidelines</li>
-            </a>
-            <a href="">
-              <li>Terms&Conditions</li>
-            </a>
-            <a href="">
-              <li>Privacy Policy</li>
-            </a>
-          </ul>
-        </div>
-        <div class="col-lg-2 col-md-4 col-sm-6 py-md-5 px-md-0 px-5 mb-md-0 mb-3">
-          <h5 class="mb-4">SERVICES</h5>
-          <ul class="list-unstyled">
-            <a href="">
-              <li>How to Order</li>
-            </a>
-            <a href="">
-              <li>Our Products</li>
-            </a>
-            <a href="">
-              <li>Order Status</li>
-            </a>
-            <a href="">
-              <li>Promo</li>
-            </a>
-            <a href="">
-              <li>Payment Method</li>
-            </a>
-          </ul>
-        </div>
-        <div class="col-lg-2 col-md-4 col-sm-6 py-md-5 px-md-0 px-5 mb-md-0 mb-3">
-          <h5 class="mb-4">OTHERS</h5>
-          <ul class="list-unstyled">
-            <a href="">
-              <li>Contact Us</li>
-            </a>
-            <a href="">
-              <li>Help</li>
-            </a>
-            <a href="">
-              <li>Privacy Policy</li>
-            </a>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </footer><!-- End footer -->
+    
 
 
   <!--===========================================  Scroll to Top ===============================================-->
   <button id="myBtn" class="scrollTop" onclick="topFunction()"><i class="fa fa-solid fa-arrow-up"></i>
   </button><!-- End Scroll to Top -->
 
-  
 
-<!--=======================================  vendor  ============================================-->
-   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+
+  <!--=======================================  vendor  ============================================-->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
@@ -479,7 +201,7 @@
 
   <!--=======================================  main js  ============================================-->
   <script src="js/script.js"></script><!--End main js -->
- 
+
 </body>
 
 </html>
