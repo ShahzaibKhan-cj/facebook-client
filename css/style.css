@@ -334,6 +334,18 @@ border-radius: 10px;
 /*************************************  cards   ****************************************/
 /*--------------------------------------------------------------------------------------------------------*/
 
+#card-sec .cards{
+ border-radius: 7px;
+  transition: 0.6s;
+  border: 1px solid rgb(225, 225, 225);
+}
+#card-sec .cards:hover{
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  scale: 1.04;
+  
+}
+
 
 #card-sec .card-img{
 width: 60px;
@@ -341,12 +353,24 @@ height: 60px;
 }
 
 #card-sec .card-btn{
-  width: 90%;
+  width: 95%;
+  border: 1px solid rgb(225, 225, 225);
+border-radius: 7px;
+cursor: pointer;
+transition:0.5s ;
+
 }
 
-#card-sec .fa-arrow-up-right{
-  /* color: black; */
-  font-size: 30px;
+
+
+#card-sec .card-btn:hover{
+/* scale: 1.04; */
+background-color:rgb(225, 225, 225) ;
+}
+
+#card-sec .card-btn a:hover{
+  text-decoration: none;
+  color: black;
 }
 
 
