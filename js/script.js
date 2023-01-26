@@ -84,6 +84,41 @@ var swiper = new Swiper(".mySwiper", {
 // End testimonial swiper
 
 
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  tabs counter  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+var tabs = document.querySelectorAll('.tab-btn');
+tabs.forEach(function(tab){
+    tab.addEventListener('click', function(){
+        var tabId = this.dataset.tab;
+        var tabContent = document.getElementById(tabId);
+        tabs.forEach(function(tab){
+            tab.classList.remove('active');
+        });
+        var tabContents = document.querySelectorAll('.tab-content');
+        tabContents.forEach(function(content){
+            content.classList.remove('active');
+        });
+        this.classList.add('active');
+        tabContent.classList.add('active');
+    });
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  pure counter  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 new PureCounter();{

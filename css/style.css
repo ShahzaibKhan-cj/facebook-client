@@ -396,6 +396,86 @@ a:hover {
 /* End Subscription */
 
 
+
+
+/*--------------------------------------------------------------------------------------------------------*/
+/*************************************  Tabs section   ****************************************/
+/*--------------------------------------------------------------------------------------------------------*/
+
+
+
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tab-btn {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(255, 251, 251);
+  cursor: pointer;
+}
+
+
+
+.tab-content {
+  display: none;
+  padding: 10px;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.tab-btn.active {
+  /* background-color: #ccc; */
+  border-bottom: 4px solid red;
+}
+
+
+#tabs-sec .cards {
+  border-radius: 7px;
+  transition: 0.6s;
+  border: 1px solid rgb(225, 225, 225);
+}
+
+/* #tabs-sec .cards:hover {
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  scale: 1.04;
+
+} */
+
+
+
+#tabs-sec .card-btn {
+  width: 95%;
+  border: 1px solid rgb(225, 225, 225);
+  border-radius: 7px;
+  cursor: pointer;
+  transition: 0.5s;
+
+}
+
+
+
+#tabs-sec .card-btn:hover {
+  /* scale: 1.04; */
+  background-color: rgb(225, 225, 225);
+}
+
+#tabs-sec .card-btn a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+
+
+
+
 /*--------------------------------------------------------------------------------------------------------*/
 /*************************************  experience section   ****************************************/
 /*--------------------------------------------------------------------------------------------------------*/
