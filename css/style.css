@@ -440,12 +440,6 @@ a:hover {
   border: 1px solid rgb(225, 225, 225);
 }
 
-/* #tabs-sec .cards:hover {
-  background-color: #ffffff;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  scale: 1.04;
-
-} */
 
 
 
@@ -471,6 +465,58 @@ a:hover {
 }
 
 
+
+
+
+/*--------------------------------------------------------------------------------------------------------*/
+/*************************************  Tabs section   ****************************************/
+/*--------------------------------------------------------------------------------------------------------*/
+
+
+#news .text-high{
+background-color:#fffa95;
+padding:5px 10px ;
+color: rgb(255, 187, 0);
+border-radius: 5px;
+font-weight: 500;
+}
+
+#news .text-high-2{
+background-color:#d5f2ff;
+padding:5px 10px ;
+color: rgb(0, 115, 255);
+border-radius: 5px;
+font-weight: 500;
+}
+
+#news h3{
+font-size: 1.1rem;
+}
+
+
+
+
+
+
+
+#news .card-btn {
+  width: 100%;
+  border: 1px solid rgb(225, 225, 225);
+  border-radius: 7px;
+  cursor: pointer;
+  transition: 0.5s;
+
+}
+
+#news .card-btn:hover {
+  /* scale: 1.04; */
+  background-color: rgb(225, 225, 225);
+}
+
+#news .card-btn a:hover {
+  text-decoration: none;
+  color: black;
+}
 
 
 
