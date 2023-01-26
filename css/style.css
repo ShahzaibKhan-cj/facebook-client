@@ -1,16 +1,16 @@
 /* Smooth scroll behavior */
 
-:root{
-scroll-behavior: smooth;
+:root {
+  scroll-behavior: smooth;
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.border-col{
+.border-col {
   border: 2px solid green;
 }
 
@@ -26,9 +26,10 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
-  
+
 }
-.btn{
+
+.btn {
   transition: all 0.6s;
   font-size: 0.9rem;
 }
@@ -48,8 +49,8 @@ h2 {
 }
 
 h3 {
-  font-size:1.5rem ;
-  
+  font-size: 1.5rem;
+
 }
 
 h4 {
@@ -58,8 +59,9 @@ h4 {
   color: #ff6d6d;
 }
 
-p, a{
-  
+p,
+a {
+
   font-size: 1rem;
   line-height: 1.5rem;
   color: rgb(92, 92, 92);
@@ -71,7 +73,7 @@ p, a{
 a:hover {
   /* text-decoration: none; */
   color: rgb(200, 197, 197);
-  
+
 }
 
 @media (max-width: 1200px) {
@@ -82,9 +84,11 @@ a:hover {
   h2 {
     font-size: 3rem;
   }
-h3{
-  font-size: 1.4rem;
-}
+
+  h3 {
+    font-size: 1.4rem;
+  }
+
   h4 {
     font-size: 1.3rem;
   }
@@ -103,9 +107,11 @@ h3{
   h2 {
     font-size: 2.5rem;
   }
-h3{
-  font-size: 1.4rem;
-}
+
+  h3 {
+    font-size: 1.4rem;
+  }
+
   h4 {
     font-size: 1.3rem;
   }
@@ -118,15 +124,15 @@ h3{
 @media (max-width: 768px) {
   h1 {
     font-size: 2.8rem;
-    line-height:3rem ;
+    line-height: 3rem;
   }
 
   h2 {
     font-size: 2.3rem;
   }
 
-  h3{
-font-size:1.4rem ;
+  h3 {
+    font-size: 1.4rem;
 
   }
 
@@ -147,9 +153,11 @@ font-size:1.4rem ;
   h2 {
     font-size: 1.8rem;
   }
-h3{
-  font-size: 1rem;
-}
+
+  h3 {
+    font-size: 1rem;
+  }
+
   h4 {
     font-size: 0.9rem;
   }
@@ -159,7 +167,7 @@ h3{
     line-height: 1rem;
   }
 }
- 
+
 @media (max-width: 460px) {
   h1 {
     font-size: 1.5rem;
@@ -170,9 +178,9 @@ h3{
   }
 
 
-  h3{
+  h3 {
 
-font-size: 1rem ;
+    font-size: 1rem;
   }
 
   h4 {
@@ -196,32 +204,34 @@ font-size: 1rem ;
 /*--------------------------------------------------------------------------------------------------------*/
 
 
-.navbar .navbar-toggler .fa{
+.navbar .navbar-toggler .fa {
   color: #DD1E28;
 }
 
-.navbar .nav-logo{
+.navbar .nav-logo {
   transition: 0.5s;
 }
 
-.navbar .nav-logo:hover{
+.navbar .nav-logo:hover {
   scale: 1.05;
 
 }
 
 
 
-.navbar-nav li{
-  
+.navbar-nav li {
+
   position: relative;
 
 }
-.navbar-nav li a{
+
+.navbar-nav li a {
   color: black;
 
 
 }
-.navbar-nav li a:hover{
+
+.navbar-nav li a:hover {
   color: #DD1E28;
 
 
@@ -236,8 +246,9 @@ font-size: 1rem ;
   display: block;
   transition: all 0.5s ease;
   bottom: 10%;
- 
+
 }
+
 .navbar-nav li:hover::before {
   width: 100%;
   height: 3px;
@@ -246,24 +257,24 @@ font-size: 1rem ;
 }
 
 
-#header-sec .header-btn{
-background-color: #DD1E28;
-color: #ffffff;
-padding: 10px 20px;
+#header-sec .header-btn {
+  background-color: #DD1E28;
+  color: #ffffff;
+  padding: 10px 20px;
 
 }
 
-#header-sec .header-btn:hover{
-background-color: #e1454c;
-color: #ffffff;
-padding: 10px 20px;
-scale: 1.05;
+#header-sec .header-btn:hover {
+  background-color: #e1454c;
+  color: #ffffff;
+  padding: 10px 20px;
+  scale: 1.05;
 
 }
 
 
-#header-sec .globe-dropdown .fa-globe{
-font-size: 23px;
+#header-sec .globe-dropdown .fa-globe {
+  font-size: 23px;
 }
 
 
@@ -277,19 +288,19 @@ font-size: 23px;
 /*--------------------------------------------------------------------------------------------------------*/
 /**********************************************   hero   ********************************************/
 /*--------------------------------------------------------------------------------------------------------*/
-#hero .container-fluid{
-background:#efeeeeb4;
-height: 700px;
-border-radius: 10px;
+#hero .container-fluid {
+  background: #efeeeeb4;
+  height: 700px;
+  border-radius: 10px;
 
 }
 
-#hero .heading-span::before{
+#hero .heading-span::before {
   content: "";
   position: absolute;
- 
+
   display: inline-block;
- 
+
   bottom: 73%;
   width: 190px;
   height: 10px;
@@ -297,33 +308,33 @@ border-radius: 10px;
 }
 
 
-#hero .hero-btn{
+#hero .hero-btn {
   background-color: #DD1E28;
   color: #ffffff;
   padding: 10px 20px;
-  
-  }
-  
-  #hero .hero-btn:hover{
+
+}
+
+#hero .hero-btn:hover {
   background-color: #e1454c;
   color: #ffffff;
   padding: 10px 20px;
   scale: 1.05;
   box-shadow: 0 4px 8px 0 rgba(255, 0, 0, 0.2), 0 6px 20px 0 rgba(246, 0, 0, 0.19);
-  }
+}
 
-  #hero .quote{
-    font-size: 1.6rem;
-    line-height: 2rem;
-    font-style: italic;
-  }
-
-
+#hero .quote {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  font-style: italic;
+}
 
 
-  #hero .airplane{
-    margin-top: -200px;
-  }
+
+
+#hero .airplane {
+  margin-top: -200px;
+}
 
 
 /* End hero */
@@ -334,41 +345,42 @@ border-radius: 10px;
 /*************************************  cards   ****************************************/
 /*--------------------------------------------------------------------------------------------------------*/
 
-#card-sec .cards{
- border-radius: 7px;
+#card-sec .cards {
+  border-radius: 7px;
   transition: 0.6s;
   border: 1px solid rgb(225, 225, 225);
 }
-#card-sec .cards:hover{
+
+#card-sec .cards:hover {
   background-color: #ffffff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   scale: 1.04;
-  
+
 }
 
 
-#card-sec .card-img{
-width: 60px;
-height: 60px;
+#card-sec .card-img {
+  width: 60px;
+  height: 60px;
 }
 
-#card-sec .card-btn{
+#card-sec .card-btn {
   width: 95%;
   border: 1px solid rgb(225, 225, 225);
-border-radius: 7px;
-cursor: pointer;
-transition:0.5s ;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: 0.5s;
 
 }
 
 
 
-#card-sec .card-btn:hover{
-/* scale: 1.04; */
-background-color:rgb(225, 225, 225) ;
+#card-sec .card-btn:hover {
+  /* scale: 1.04; */
+  background-color: rgb(225, 225, 225);
 }
 
-#card-sec .card-btn a:hover{
+#card-sec .card-btn a:hover {
   text-decoration: none;
   color: black;
 }
@@ -385,12 +397,66 @@ background-color:rgb(225, 225, 225) ;
 
 
 /*--------------------------------------------------------------------------------------------------------*/
-/*************************************  footer   ****************************************/
+/*************************************  experience section   ****************************************/
+/*--------------------------------------------------------------------------------------------------------*/
+#experience {
+  background: url(../assets/images/experince.bg.png);
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+
+
+#experience .row {
+  height: 350px;
+
+
+}
+
+/* End footer */
+
+
+
+/*--------------------------------------------------------------------------------------------------------*/
+/*************************************  form section   ****************************************/
 /*--------------------------------------------------------------------------------------------------------*/
 
 
+#form .row {
+  background-color: #06152D;
+}
 
-/* End footer */
+
+#form .row {
+  height: 470px;
+  border-radius: 7px;
+}
+
+
+#form .airplane {
+  margin-top: -230px;
+  margin-left: -100px;
+}
+
+#form .heading {
+  margin-top:-300px ;
+  font-size: 4rem;
+  line-height: 5rem;
+}
+
+#form .form-1{
+  margin-top: -400px;
+}
+
+
+
+
+
+
+
+
 
 
 /*--------------------------------------------------------------------------------------------------------*/
