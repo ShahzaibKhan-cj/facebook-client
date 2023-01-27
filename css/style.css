@@ -171,6 +171,7 @@ a:hover {
 @media (max-width: 460px) {
   h1 {
     font-size: 1.5rem;
+    line-height: 2rem;
   }
 
   h2 {
@@ -204,7 +205,7 @@ a:hover {
 /*--------------------------------------------------------------------------------------------------------*/
 
 
-.navbar .navbar-toggler .fa {
+.navbar .navbar-toggler-icon {
   color: #DD1E28;
 }
 
@@ -308,6 +309,7 @@ a:hover {
 }
 
 
+
 #hero .hero-btn {
   background-color: #DD1E28;
   color: #ffffff;
@@ -336,6 +338,34 @@ a:hover {
   margin-top: -200px;
 }
 
+@media (max-width: 460px){
+  #hero .heading-span::before {
+    content: "";
+    position: absolute;
+  
+    display: inline-block;
+  
+    bottom: 63%;
+    width: 68px;
+    height: 3px;
+    background-color: #DD1E28;
+  }
+ 
+  #hero .airplane {
+    margin-top: -15px;
+  } 
+  
+  #hero .double-quotes{
+    width: 4%;
+    margin-bottom: 10px;
+  }
+  
+  #hero .quote{
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+  }
+
+}
 
 /* End hero */
 
@@ -385,26 +415,9 @@ a:hover {
 
 }
 /* Make the table responsive */
-@media (max-width: 600px) {
-  #table-sec  th, td {
-    display: block;
-    width: 100%;
-  }
-  #table-sec  th {
-    text-align: left;
-  }
-}
 
-/* 
-#table-sec button {
-  background-color: blue;
-  color: white;
-  padding: 8px;
-  border-radius: 4px;
-  font-size: 14px;
-  text-align: center;
-  cursor: pointer;
-} */
+
+
 
 #table-sec button {
   background-color: #ffffff;
@@ -449,7 +462,17 @@ a:hover {
 }
 
 
+@media (max-width: 460px) {
+  #table-sec .table-col{
+    margin-top: 80px;
+  }
 
+  #table-sec th, td{
+    font-size: 0.7rem;
+  }
+
+
+}
 
 
 
@@ -499,7 +522,13 @@ a:hover {
 }
 
 
+@media (max-width: 460px) {
+  #card-sec{
+    padding-top: 500px;
+  }
 
+
+}
 
 
 
@@ -577,6 +606,15 @@ a:hover {
   color: black;
 }
 
+
+/* 
+@media (max-width: 460px) {
+  #tabs-sec{
+    padding-top: 500px;
+  }
+
+
+} */
 
 
 
