@@ -607,14 +607,14 @@ a:hover {
 }
 
 
-/* 
+
 @media (max-width: 460px) {
-  #tabs-sec{
-    padding-top: 500px;
+  #tabs-sec .tab-btn h4{
+    display: none;
   }
 
 
-} */
+}
 
 
 
@@ -691,6 +691,16 @@ font-size: 1.1rem;
 color: #DD1E28;
 }
 
+@media (max-width: 460px) {
+  #experience .row {
+    height: 280px;
+  }
+
+
+}
+
+
+
 
 /* End footer */
 
@@ -698,15 +708,21 @@ color: #DD1E28;
 
 
 /*--------------------------------------------------------------------------------------------------------*/
-/*************************************  experience section   ****************************************/
+/*************************************  testimonials section   ****************************************/
 /*--------------------------------------------------------------------------------------------------------*/
 
-#testimonials .row-2{
-height: 400px;
+
+@media (max-width: 460px) {
+  #testimonials .img-1{
+   width: 60%;
+  }
+  
+  #testimonials .img-2{
+   width: 4%;
+  }
 
 
 }
-
 
 
 
@@ -727,18 +743,18 @@ height: 400px;
 
 
 #form .airplane {
-  margin-top: -230px;
+  margin-top: -180px;
   margin-left: -100px;
 }
 
 #form .heading {
-  margin-top:-300px ;
+  margin-top:-270px ;
   font-size: 4rem;
   line-height: 5rem;
 }
 
 #form .form-1{
-  margin-top: -390px;
+  margin-top: -300px;
 }
 
 #form .form-btn{
@@ -746,6 +762,53 @@ height: 400px;
   background-color: #DD1E28;
   color: #ffffff;
 }
+
+
+@media (max-width: 460px) {
+
+  #form .row {
+    height: 600px;
+    border-radius: 7px;
+  }
+
+  #form .airplane {
+    margin-top: -90px;
+    margin-left: 1px;
+    margin-right: 100px;
+    /* width: 100%; */
+  }
+
+  #form .heading {
+    margin-top:-130px ;
+    font-size: 2rem;
+    line-height: 2.3rem;
+  }
+  
+  #form .form-1{
+    margin-top: -50px;
+  }
+
+}
+
+
+/*--------------------------------------------------------------------------------------------------------*/
+/*************************************  partners section   ****************************************/
+/*--------------------------------------------------------------------------------------------------------*/
+
+
+@media (max-width: 460px) {
+  
+  #partners img{
+width: 50%;
+  }
+  
+  #partners img{
+width: 50%;
+  }
+}
+
+
+
 
 
 
