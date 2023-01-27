@@ -342,6 +342,101 @@ a:hover {
 
 
 /*--------------------------------------------------------------------------------------------------------*/
+/*************************************  table section   ****************************************/
+/*--------------------------------------------------------------------------------------------------------*/
+#table-sec .main-row{
+  height: 600px;
+}
+
+
+#table-sec .card-1{
+  margin-top: -10px;
+  margin-right: -23px;
+}
+
+#table-sec .cards-body{
+  margin-top: -90px;
+  
+}
+
+
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  /* border: 1px solid #ddd; */
+  padding: 15px 8px;
+  text-align: left;
+  /* border: none; */
+
+}
+
+th {
+  /* background-color: #f2f2f2; */
+  color: rgb(181, 181, 181);
+}
+
+td:hover{
+
+
+}
+/* Make the table responsive */
+@media (max-width: 600px) {
+  th, td {
+    display: block;
+    width: 100%;
+  }
+  th {
+    text-align: left;
+  }
+}
+
+
+button {
+  background-color: blue;
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#table-sec .table-col{
+  border: 1px solid rgb(220, 220, 220);
+  border-radius: 5px;
+}
+
+#table-sec .table-readmore-btn {
+  width: 100%;
+  border: 1px solid rgb(225, 225, 225);
+  border-radius: 7px;
+  cursor: pointer;
+  transition: 0.5s;
+
+}
+
+#table-sec .table-readmore-btn:hover {
+  /* scale: 1.04; */
+  background-color: rgb(225, 225, 225);
+}
+
+#table-sec .table-readmore-btn a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+
+
+
+
+/*--------------------------------------------------------------------------------------------------------*/
 /*************************************  cards   ****************************************/
 /*--------------------------------------------------------------------------------------------------------*/
 
@@ -469,7 +564,7 @@ a:hover {
 
 
 /*--------------------------------------------------------------------------------------------------------*/
-/*************************************  Tabs section   ****************************************/
+/*************************************  News section   ****************************************/
 /*--------------------------------------------------------------------------------------------------------*/
 
 
